@@ -1,0 +1,38 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto; /* Centers the card and adds space between each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 400px; /* Limits the width of the card */
+  transition: transform 0.2s ease-in-out; /* Adds a smooth transition effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 2em;
+  color: #00796b;
+  margin: 20px 0;
+  text-align: center;
+}
